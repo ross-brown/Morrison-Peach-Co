@@ -1,7 +1,7 @@
 # Morrison-Peach-Co
 In this project, I used flexbox to design and build the layout for a peach company’s homepage. 
 
-**Link to project:** https://ross-brown.github.io/morrison-peach-co/index.html
+**Link to project:** https://ross-brown.github.io/Morrison-Peach-Co/index.html
 
 ![alt tag](/resources/images/Homepage-screenshot.png)
 
