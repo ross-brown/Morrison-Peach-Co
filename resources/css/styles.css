@@ -1,0 +1,223 @@
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #ffe5b1;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+}
+
+h1 {
+    margin: 0 0;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: 0.2rem solid #ec8f65;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    z-index: 100;
+    background-color: #ffe5b1;
+}
+
+.comp-name a {
+    margin: 0 5px;
+    color: #ec8f65;
+}
+
+.comp-name h1 {
+    flex-wrap: nowrap;
+    border-bottom: 0.23rem double #db6551;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar ul {
+    flex-basis: auto;
+}
+
+
+.nav-bar ul li {
+    list-style: none;
+    float: right;
+    margin: 10px 20px;
+    font-size: 1.1rem;
+    flex-shrink: 1;
+}
+
+.nav-bar a {
+    transition: color 0.4s, font-size 0.4s;
+}
+
+.nav-bar a:hover {
+    color: #ec8f65;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 960px) {
+    .nav-bar ul li {
+        display: none;
+    }
+}
+
+
+
+/* SPLASH */
+
+.splash {
+    background-image: url(/resources/images/conor-brown-PnuyK_PMAHU-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 58rem;
+    display: block;
+}
+
+.mission {
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 300px;
+}
+
+.mission h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding: 0.85rem;
+}
+
+span {
+    color:#ec8f65;
+}
+
+
+
+/* PRODUCTS */
+
+#products {
+    padding-top: 3rem;
+    margin: auto;
+    min-height: 30rem;
+    margin-bottom: 3rem;
+}
+
+.content h1 {
+    display: inline-block;
+    border-bottom: 0.23rem double #db6551;
+    margin-bottom: 1.75rem;
+    color:rgb(60, 60, 60);
+}
+
+.our-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.peach {
+    display: flex;
+    align-items: center;
+}
+
+.peach img {
+    width: 16rem;
+    height: auto;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.peach p {
+    font-weight: bold;
+    font-size: 1.35rem;
+    text-align: left;
+    min-width: 200px;
+}
+
+/* THE TEAM */
+
+#team {
+    padding-top: 3rem;
+    margin: auto;
+    min-height: 45rem;
+    background-image: url(/resources/images/headshot\ BG.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#team h1 {
+    font-size: 2.3rem;
+    display: inline-block;
+    border-bottom: 0.23rem double #db6551;
+    margin-bottom: 2.5rem;
+    color: rgb(40, 40, 40);
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.team-mems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.mem1 img {
+    width: 15rem;
+    border-radius: 3px;
+    border: 5px solid #ec8f65;
+}
+
+.mem1 h2, .mem1 p {
+    color: white;
+    background-color: rgb(60, 60, 60);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+/* CONTACT */
+
+#contact {
+    padding-top: 3rem;
+    margin: auto;
+    min-height: 15rem;
+    color: rgb(60, 60, 60);
+}
+
+#contact h1 {
+    font-size: 2rem;
+    display: inline-block;
+    border-bottom: 0.23rem double #db6551;
+    margin-bottom: 1.75rem;
+    
+}
+
+
+footer {
+    border-top: 1px solid #ec8f65;
+    color: white;
+    background-color: #db6551;
+}
+
+footer p { 
+    margin: 0;
+    padding: 10px;
+}
