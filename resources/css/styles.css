@@ -74,6 +74,10 @@ header {
     .nav-bar ul li {
         display: none;
     }
+
+    .comp-name {
+        font-size: 0.75rem;
+    }
 }
 
 
@@ -81,10 +85,11 @@ header {
 /* SPLASH */
 
 .splash {
+    display: flex;
     background-image: url(../images/conor-brown-PnuyK_PMAHU-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 100vw;
     height: 58rem;
     display: block;
 }
@@ -106,6 +111,12 @@ header {
 
 span {
     color:#ec8f65;
+}
+
+@media only screen and (max-width: 650px) {
+    .mission h1 {
+        font-size: 2.75rem;
+    }
 }
 
 
